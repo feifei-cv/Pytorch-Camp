@@ -25,6 +25,27 @@ weight_decay；dropout
 - 本节课件下载：
 🌭[正则化之weight_decay](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/06-01-ppt-%E6%AD%A3%E5%88%99%E5%8C%96%E4%B9%8Bweight_decay.pdf)
 🍟[正则化-Dropout](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/06-02-ppt-%E6%AD%A3%E5%88%99%E5%8C%96-Dropout.pdf)
+
+**笔记**
+1、weight_decay
+
+​	目的是减小方差，即减小了模型复杂程度
+
+​		方差：数据集变动造成的性能影响，即训练集和验证集之间的性能差异
+
+​		偏差：度量算法的拟合能力，即期望预测和真实之间的偏离程度
+
+​		噪声：当前任务学习算法能达到的期望泛化误差下界
+
+
+
+
+
+
+
+
+
+
 ### 🛴【任务2】
 
 **任务名称：**  
